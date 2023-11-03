@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import "./CSS Files/Navbar.css";
 import Typewriter from "typewriter-effect/dist/core";
 import { animateScroll as scroll } from "react-scroll";
-import Pdf from "./Images/AkshayVakilResume.pdf";
+import ResumePdf from "./Images/Resume_Keshav_Mittal.pdf";
 
 function Navbar() {
   const typewriterRef = useRef(null);
@@ -33,7 +33,7 @@ function Navbar() {
   }, []);
 
   const onResumeClick = () => {
-    window.open(Pdf);
+    window.open(ResumePdf);
   };
 
   return (
