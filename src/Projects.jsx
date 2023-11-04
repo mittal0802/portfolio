@@ -4,7 +4,7 @@ import "./CSS Files/projects.css";
 import sorting from "./Images/sorting.png";
 import weather from "./Images/weatherwise.png";
 import student from "./Images/Student.png";
-import ecommerce from "./Images/ecommerce.png";
+import ecommerce from "./Images/Ecommerce.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
