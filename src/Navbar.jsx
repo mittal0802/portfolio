@@ -13,6 +13,7 @@ function Navbar() {
   useEffect(() => {
     const typewriter = new Typewriter(typewriterRef.current, {
       strings: [
+        "I am a Coder",
         "I am a Software Engineering Student at DTU",
         "I like coding",
         "I enjoy binge watching shows",
