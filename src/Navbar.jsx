@@ -56,11 +56,13 @@ function Navbar() {
       </a>
 
       <ul className="nav-links">
-        <div className="name-box">
-          <li className="Name">
-            K <span className="period">.</span>
-          </li>
-        </div>
+        <Link to="navbar" smooth={true} duration={500}>
+          <div className="name-box">
+            <li className="Name">
+              K <span className="period">.</span>
+            </li>
+          </div>
+        </Link>
         <Link to="About" smooth={true} duration={500}>
           <li>About</li>
         </Link>

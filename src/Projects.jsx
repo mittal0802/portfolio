@@ -4,7 +4,7 @@ import "./CSS Files/projects.css";
 import sorting from "./Images/sorting.png";
 import weather from "./Images/weatherwise.png";
 import student from "./Images/Student.png";
-
+import ecommerce from "./Images/ecommerce.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -47,7 +47,7 @@ function Projects() {
       <div className="projects-wrapper">
         <ProjectCard
           title="UrbanStyle - Where Fashion Meets Comfort"
-          imageSrc={weather}
+          imageSrc={ecommerce}
           githubLink="https://github.com/mittal0802/urbanStyle"
           liveLink="https://urban-style-react.netlify.app/"
           technologies="React.js, HTML/CSS, Firebase, Styled Components, Stripe API"
